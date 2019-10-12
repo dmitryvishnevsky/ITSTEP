@@ -1,0 +1,75 @@
+
+.eyeone {
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    position:absolute;
+    left: 150px;
+    top: 200px;
+}
+.head {
+    background-color: deepskyblue;
+    width: 500px;
+    height: 400px;
+    position:absolute;
+    left: 50px;
+    top:75px;
+}
+.eyetwo {
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    position:absolute;
+    left: 350px;
+    top: 200px;
+}
+.nose {
+    background-color: blue;
+    width: 50px;
+    height: 75px;
+    position: absolute;
+    left: 275px;
+    top: 250px;
+}
+.mouth {
+    background-color: white;
+    width:350px;
+    height:50px;
+    position:absolute;
+    left:125px;
+    top:350px;
+}
+.earone {
+    background-color: darkblue;
+    width:50px;
+    height:75px;
+    position:absolute;
+    left:150px;
+    top:5px;
+    
+}
+.eartwo {
+    background-color: darkblue;
+    width:50px;
+    height:75px;
+    position:absolute;
+    left:450px;
+    top:5px;
+    
+}
+.pupilone {
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 190px;
+    top:215px;
+}
+.pupiltwo {
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 390px;
+    top:215px;
+}
