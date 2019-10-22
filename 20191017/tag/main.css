@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(235, 235, 235);
+    font-family: Arial, Helvetica, sans-serif;
+}
+dt {
+    font-style: italic;
+}
+.example {
+    color: grey;
+}
+span {
+    color: blue;
+}

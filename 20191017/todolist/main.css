@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(238, 228, 228);
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    font-weight: 700;
+    font-size: 120%;
+    margin-left: 25px;
+}
+li:nth-child(even){
+    background-color: rgb(147, 182, 214);
+}
+li.done{
+    background-color:rgb(216, 207, 207) ;
+    list-style-image: url(checked_16.png);
+}
+li {
+    background-color: rgb(180, 219, 255);
+    padding: 11px 30px;
+    list-style-position: inside;
+    list-style-image: url(unchecked_16.png);
+    
+}
+.cross{
+    padding-left: 15px;;
+    color: rgb(107, 10, 10);
+    font-size: 0.6em;
+    font-weight: 800;
+}
+.liEl{
+    padding-left: 15px;
+}
