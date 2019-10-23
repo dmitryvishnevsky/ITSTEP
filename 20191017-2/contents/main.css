@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol.roman {
+    list-style: upper-roman;
+    font-weight: 700;
+}
+ol.arabic {
+    list-style: decimal;
+    font-weight: 700;
+}
+ol.literal {
+    list-style: lower-alpha;
+    font-weight: 700;
+}
+span {
+    font-weight: normal;
+    color: rgb(55, 55, 175);
+}
