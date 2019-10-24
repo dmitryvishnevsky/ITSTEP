@@ -1,0 +1,66 @@
+.rook_black {
+width:60px;
+height:30px;
+background-color: rgb(95, 59, 12);
+position: relative;
+top: 5px;
+left:18px;
+border: 2px solid black;
+}
+.rook_black::before{
+    content: " ";
+    display: block;
+    width:45px;
+    height:47px;
+    background-color: rgb(95, 59, 12);
+    border: 2px solid black;
+    position: relative;
+    left:6px;
+    top:30px;
+    
+}
+.rook_black::after{
+    content: " ";
+    display: block;
+    width:60px;
+    height:10px;
+    background-color: rgb(95, 59, 12);
+    border: 2px solid black;
+    position: relative;
+    left:-2px;
+    top:25px;
+    border-radius: 7px 7px 0px 0px;
+}
+.rook_white {
+    width:60px;
+    height:35px;
+    background-color: rgb(212, 169, 111);
+    position: relative;
+    top:5px;
+    left:18px;
+    border: 2px solid black;
+    }
+    .rook_white::before{
+        content: " ";
+        display: block;
+        width:45px;
+        height:47px;
+        background-color: rgb(212, 169, 111);
+        border: 2px solid black;
+        position: relative;
+        left:6px;
+        top:35px;
+        
+    }
+    .rook_white::after{
+        content: " ";
+        display: block;
+        width:60px;
+        height:10px;
+        background-color: rgb(212, 169, 111);
+        border: 2px solid black;
+        position: relative;
+        left:-2px;
+        top:30px;
+        border-radius: 7px 7px 0px 0px;
+    }

@@ -1,0 +1,70 @@
+.king_black {
+    width:60px;
+    height:40px;
+    background-color: rgb(95, 59, 12);
+    border-radius: 50px 50px 0px 0px;
+    position: relative;
+    left:20px;
+    top:5px;
+    border: 2px solid black;
+    
+}
+.king_black::before{
+    content: " ";
+    display: block;
+    width:25px;
+    height:82px;
+    background-color: rgb(95, 59, 12);
+    border: 2px solid black;
+    position: relative;
+    left:15px;
+    top:-4px;
+    
+}
+.king_black::after{
+    content: " ";
+    display: block;
+    width:60px;
+    height:10px;
+    background-color: rgb(95, 59, 12);
+    border: 2px solid black;
+    position: relative;
+    left: -1px;
+    top:-10px;
+    border-radius: 7px 7px 0px 0px;
+}
+.king_white {
+    width:60px;
+    height:40px;
+    background-color: rgb(212, 169, 111);
+    border-radius: 50px 50px 0px 0px;
+    position: relative;
+    left:20px;
+    top:5px;
+    border: 2px solid black;
+    
+}
+.king_white::before{
+    content: " ";
+    display: block;
+    width:25px;
+    height:82px;
+    background-color: rgb(212, 169, 111);
+    border: 2px solid black;
+    position: relative;
+    left:15px;
+    top:-4px;
+    
+}
+.king_white::after{
+    content: " ";
+    display: block;
+    width:60px;
+    height:10px;
+    background-color: rgb(212, 169, 111);
+    border: 2px solid black;
+    position: relative;
+    left: -1px;
+    top:-10px;
+    border-radius: 7px 7px 0px 0px;
+}
