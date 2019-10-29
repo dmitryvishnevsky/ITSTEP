@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+td {
+    border: 1px solid black;
+    width:140px; 
+    height:140px;
+    text-align: center;
+}
+span {
+    font-size: 22px;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+    text-align: center;
+}
+.empty {
+    border: none;
+    text-align: left;
+    
+}
+
+
+.orange {
+    background-color: rgb(219, 99, 1);
+}
+.blue {
+    background-color: rgb(24, 184, 224);
+}
+.darkblue {
+    background-color: rgb(17, 137, 167)
+}
+.beige {
+    background-color: bisque;
+}
+.yellow {
+    background-color: rgb(238, 238, 38);
+}
+.palepink {
+    background-color: rgb(231, 154, 167);
+}
+.turquoise {
+    background-color: turquoise;
+}
+.palegreen {
+    background-color: rgb(143, 182, 111);
+}
+.magenta {
+    background-color: magenta;
+}
+.pink {
+    background-color: pink;
+}
+.grey {
+    background-color: rgb(223, 223, 223);
+}
+#orange {
+    color: rgb(219, 99, 1);
+}
+#blue {
+    color: rgb(24, 184, 224);
+}
+#darkblue {
+    color: rgb(17, 137, 167)
+}
+#beige {
+    color: bisque;
+}
+#yellow {
+    color: rgb(238, 238, 38);
+}
+#palepink {
+    color: rgb(231, 154, 167);
+}
+#turquoise {
+    color: turquoise;
+}
+#palegreen {
+    color: rgb(143, 182, 111);
+}
+#magenta {
+    color: magenta;
+}
+#pink {
+    color: pink;
+}
+#grey {
+    color: rgb(223, 223, 223);
+}
+#key {
+    padding-left: 250px;
+}
+span.keyy {
+    font-size: 12pt;
+    margin-left: 16px;
+}
