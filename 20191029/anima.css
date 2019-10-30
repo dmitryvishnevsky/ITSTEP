@@ -1,0 +1,494 @@
+/* Первое задание */
+.one,
+.two,
+.three,
+.four {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+}
+
+.one {
+    position: absolute;
+    left: 250px;
+    top: 50px;
+    transform: rotate(45deg);
+    animation: one 1s linear infinite;
+}
+
+.two {
+    position: absolute;
+    left: 215px;
+    top: 85px;
+    transform: rotate(45deg);
+    animation: two 1s linear infinite;
+}
+
+.three {
+    position: absolute;
+    left: 285px;
+    top: 85px;
+    transform: rotate(45deg);
+    animation: three 1s linear infinite;
+}
+
+.four {
+    position: absolute;
+    left: 250px;
+    top: 120px;
+    transform: rotate(45deg);
+    animation: four 1s linear infinite;
+
+}
+
+@keyframes one {
+    0% {
+        top: 50px;
+        transform: rotate(45deg);
+    }
+
+    50% {
+        top: 20px;
+        transform: rotate(45deg);
+    }
+
+    100% {
+        top: 50px;
+        transform: rotate(155deg);
+    }
+}
+
+@keyframes two {
+    0% {
+        left: 215px;
+        transform: rotate(45deg);
+    }
+
+    50% {
+        left: 185px;
+        transform: rotate(45deg);
+    }
+
+    100% {
+        left: 215px;
+        transform: rotate(155deg);
+    }
+}
+
+@keyframes three {
+    0% {
+        left: 285px;
+        transform: rotate(45deg);
+    }
+
+    50% {
+        left: 315px;
+        transform: rotate(45deg);
+    }
+
+    100% {
+        left: 285px;
+        transform: rotate(155deg);
+    }
+}
+
+@keyframes four {
+    0% {
+        top: 120px;
+        transform: rotate(45deg);
+    }
+
+    50% {
+        top: 150px;
+        transform: rotate(45deg);
+    }
+
+    100% {
+        top: 120px;
+        transform: rotate(155deg);
+    }
+}
+
+/* Второе задание */
+.five,
+.six,
+.seven,
+.eight,
+.nine {
+    background-color: rgb(107, 161, 131);
+    width: 40px;
+    height: 40px;
+}
+
+.five {
+    position: absolute;
+    left: 450px;
+    top: 75px;
+    animation: five 0.5s infinite ease-in-out alternate;
+}
+
+.six {
+    position: absolute;
+    left: 500px;
+    top: 75px;
+    animation: six 0.5s infinite ease-in-out alternate;
+}
+
+.seven {
+    position: absolute;
+    left: 550px;
+    top: 75px;
+    animation: seven 0.5s infinite ease-in-out alternate;
+}
+
+.eight {
+    position: absolute;
+    left: 600px;
+    top: 75px;
+    animation: eight 0.5s infinite ease-in-out alternate;
+}
+
+.nine {
+    position: absolute;
+    left: 650px;
+    top: 75px;
+    animation: nine 0.5s infinite ease-in-out alternate;
+}
+
+@keyframes five {
+    0% {
+        left: 450px;
+        top: 75px;
+        height: 40px;
+        width: 40px;
+    }
+
+    50% {
+        left: 550px;
+        top: 75px;
+        height: 45px;
+        width: 45px;
+    }
+
+    100% {
+        left: 550px;
+        top: 55px;
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@keyframes six {
+    0% {
+        left: 500px;
+        top: 75px;
+        height: 40px;
+        width: 40px;
+    }
+
+    50% {
+        left: 550px;
+        top: 75px;
+        height: 45px;
+        width: 45px;
+    }
+
+    100% {
+        left: 550px;
+        top: 95px;
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@keyframes seven {
+    0% {
+        left: 550px;
+        top: 75px;
+        height: 40px;
+        width: 40px;
+    }
+
+    50% {
+        left: 590px;
+        top: 75px;
+        height: 45px;
+        width: 45px;
+    }
+
+    100% {
+        left: 590px;
+        top: 75px;
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@keyframes eight {
+    0% {
+        left: 600px;
+        top: 75px;
+        height: 40px;
+        width: 40px;
+    }
+
+    50% {
+        left: 590px;
+        top: 75px;
+        height: 45px;
+        width: 45px;
+    }
+
+    100% {
+        left: 590px;
+        top: 55px;
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@keyframes nine {
+    0% {
+        left: 650px;
+        top: 75px;
+        height: 40px;
+        width: 40px;
+    }
+
+    50% {
+        left: 590px;
+        top: 75px;
+        height: 45px;
+        width: 45px;
+    }
+
+    100% {
+        left: 590px;
+        top: 95px;
+        height: 60px;
+        width: 60px;
+    }
+}
+
+/*Третье задание*/
+.upper-left,
+.middle-left,
+.bottom-left,
+.ten,
+.eleven,
+.twelve,
+.blue,
+.red,
+.thirteen {
+    height: 50px;
+    width: 50px;
+}
+
+.upper-left {
+    background-color: rgb(238, 163, 51);
+    position: absolute;
+    left: 200px;
+    top: 350px;
+}
+
+.middle-left {
+    background-color: rgb(223, 108, 0);
+    position: absolute;
+    left: 200px;
+    top: 415px;
+}
+
+.bottom-left {
+    background-color: rgb(248, 199, 126);
+    position: absolute;
+    left: 200px;
+    top: 480px;
+}
+
+.ten {
+    background-color: rgb(248, 199, 126);
+    position: absolute;
+    left: 265px;
+    top: 350px;
+}
+
+.eleven {
+    background-color: rgb(248, 199, 126);
+    position: absolute;
+    left: 265px;
+    top: 415px;
+    animation: eleven 1s infinite linear;
+}
+
+.twelve {
+    background-color: rgb(248, 199, 126);
+    position: absolute;
+    left: 330px;
+    top: 415px;
+    animation: twelve 1s infinite linear;
+}
+
+.blue {
+    background-color: rgb(79, 150, 216);
+    position: absolute;
+    left: 330px;
+    top: 480px;
+    animation: blue 1s infinite linear;
+
+}
+
+.red {
+    background-color: white;
+    position: absolute;
+    left: 265px;
+    top: 555px;
+    animation: red 1s infinite linear;
+
+}
+
+.thirteen {
+    background-color: white;
+    position: absolute;
+    left: 395px;
+    top: 415px;
+    animation: thirteen 1s infinite linear;
+}
+
+@keyframes red {
+    0% {
+        background-color: white;
+        left: 265px;
+        top: 555px;
+    }
+
+    0.0001% {
+        background-color: red;
+    }
+
+    33% {
+        background-color: red;
+        left: 265px;
+        top: 480px;
+    }
+
+    66% {
+        background-color: red;
+        left: 265px;
+        top: 480px;
+    }
+
+    66.0001% {
+        background-color: white;
+
+    }
+
+    100% {
+        background-color: white;
+        left: 265px;
+        top: 480px;
+    }
+
+}
+
+@keyframes twelve {
+    0% {
+        left: 330px;
+        top: 415px;
+    }
+
+    33% {
+        left: 330px;
+        top: 350px;
+    }
+
+    66% {
+        left: 330px;
+        top: 415px;
+    }
+
+    100% {
+        left: 330px;
+        top: 415px;
+    }
+}
+
+@keyframes blue {
+    0% {
+        left: 330px;
+        top: 480px;
+        background-color: rgb(79, 150, 216);
+    }
+
+    33% {
+        left: 330px;
+        top: 415px;
+        background-color: rgb(79, 150, 216);
+    }
+
+    66% {
+        left: 330px;
+        top: 480px;
+        background-color: rgb(79, 150, 216);
+    }
+
+    80% {
+        background-color: rgb(79, 150, 216);
+    }
+
+    100% {
+        left: 265px;
+        top: 480px;
+        background-color: rgb(248, 199, 126);
+    }
+}
+
+@keyframes eleven {
+    0% {
+        left: 265px;
+        top: 415px;
+    }
+
+    33% {
+        left: 265px;
+        top: 350px;
+    }
+
+    66% {
+        left: 265px;
+        top: 415px;
+    }
+
+    100% {
+        left: 265px;
+        top: 415px;
+
+    }
+}
+
+@keyframes thirteen {
+    0% {
+        
+        left: 395px;
+        top: 350px;
+        background-color: white;
+    }
+
+    33% {
+        
+        left: 395px;
+        top: 350px;
+        background-color: white;
+    }
+
+    66% {
+        
+        left: 330px;
+        top: 350px;
+        background-color: rgb(248, 199, 126);
+    }
+    100% {
+        left: 265px;
+        top: 350px;
+        background-color: rgb(248, 199, 126); 
+    }
+}
