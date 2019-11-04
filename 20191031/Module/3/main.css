@@ -82,20 +82,24 @@ body{
 .enterprise:hover {
 width: 20%;
 height: 650px;
+top: 125px;
 left: 7%
 }
 .professional:hover {
     width:20%;
     height: 650px;
+    top: 125px;
     left: 27%;
 }
 .standard:hover {
     width:20%;
     height: 650px;
+    top: 125px;
     left: 47%;
 }
 .basic:hover {
     width:20%;
     height: 650px;
+    top: 125px;
     left: 67%;
 }
