@@ -13,6 +13,9 @@
     width: 100%;
     height: 100px;
     background-color: brown;
+    position: sticky;
+    top:0;
+    left: 0;
 }
 ul {
     list-style: none;
@@ -46,6 +49,7 @@ li:hover{
     position: relative;
     top: -770px;
     left: 760px;
+    z-index: -1;
 }
 .photo {
     text-align: center;
