@@ -85,9 +85,13 @@ pre {
 }
 
 .names {
-    display: inline-block;
-    width:13%;
+    display: inline;
     margin-left: 24px;
     max-height: 150px;
     text-align: center;
+}
+.names * {
+    padding: 24px;
+    text-align: center;
+    display: table-cell;
 }
