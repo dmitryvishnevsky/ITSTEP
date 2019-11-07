@@ -7,7 +7,6 @@
     height: 1500px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(228, 228, 228);
- 
 }
 .menu {
     width: 100%;
@@ -73,25 +72,20 @@ pre {
     top: -550px;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%);
-
-    
+    transform: translate(-50%); 
 }
 .photos * {
     width: 12%;
     max-height: 150px;
-    margin-left: 35px;
-    
+    padding: 25px;
+    display: table-cell;
 }
-
 .names {
-    display: inline;
-    margin-left: 24px;
     max-height: 150px;
     text-align: center;
+    display: table-cell;
 }
 .names * {
-    padding: 24px;
+    padding: 27px;
     text-align: center;
-    display: table-cell;
 }
