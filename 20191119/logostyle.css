@@ -1,0 +1,17 @@
+.one {
+    stroke: rgb(86, 0, 245);
+    stroke-width: 7;
+    fill: ghostwhite;
+}
+.two {
+    stroke: rgb(180, 140, 255);
+    stroke-width: 7;
+    fill: ghostwhite;
+}
+.three {
+    fill:rgb(144, 144, 189);
+    stroke:rgb(70, 34, 128);
+    stroke-width:5;
+    fill-opacity:0.4;
+    stroke-opacity:0.8;
+}
