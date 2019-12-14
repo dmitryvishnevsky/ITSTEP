@@ -1,0 +1,219 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.header {
+ 
+    background-color: #579ee0;
+    padding: 10px 30px;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    height: 75px;
+}
+.header a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 22px;
+    line-height: 24px;
+    
+}
+.header a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(211, 211, 211);
+}
+.header a.active {
+    background-color: rgb(211, 211, 211);
+    color: rgb(0, 0, 0);
+  }
+  .header-right {
+    float: right;
+  }
+#burger-menu {
+    display: none;
+}
+label {
+    float: right;
+    width: 40px;
+    height: 40px;
+    background-color:#579ee0;;
+    border-radius: 50%;
+    border: 3px solid #386a99;;
+}
+label span, label span::before, label span::after {
+    position: absolute;
+    top: 50%; margin-top: -1px;
+    left: 50%; margin-left: -10px;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+}
+label span::before, label span::after {
+    content: "";
+}
+span::before {
+    transform: translateY(-5px);
+}
+span::after {
+    transform: translateY(5px);
+}
+
+.burger-list {
+    margin-top: 24px;
+    list-style-type: none;
+    position: relative;
+    left: -85px;
+    top: 15px;
+    display: none;
+    z-index: 2;
+}
+.burger-list .link-modify{
+    margin-top: -2px;
+    text-align: center;
+    width: 125px;
+    height: 40px;
+    font-size: 22px;
+    background-color: #579ee0;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+#burger-menu:checked ~ label > .burger-list{
+    display: block;
+}
+#burger-label{
+    position: absolute;
+    top: 23px;
+    left: 75%;
+}
+.header {
+    align-items: center
+}
+.logo-pic {
+   width: 100px;
+   position: absolute;
+   top: 4px;
+}
+@media (max-width: 767px) {
+    .header-right {
+        display: none;
+    }
+    #imgOne {
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    #burger-label {
+        display: none;
+    }
+}
+.header > .logo:hover {
+    background-color: rgba(0,0, 0, 0);
+    color: white;
+}
+.logo-span {
+    font-size: 140%;
+    position: relative;
+    top: 5px;
+    left: 90px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+} 
+
+.row{
+    margin-top:10px;
+}
+
+a.link-burger{
+    margin-top: -2px;
+    text-align: center;
+    width: 125px;
+    height: 40px;
+    font-size: 22px;
+    background-color: #579ee0;
+    color: white;
+    position: relative;
+    z-index: 2;
+    border-radius: 0;
+}
+.plan{
+    height: 450px;
+    border: 1px solid black;
+    text-align: center;
+    transition: 1s;
+}
+.text {
+    font-size: 120%;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.red {
+    border: 3px solid rgb(187, 11, 34);
+}
+.yellow {
+    border: 3px solid rgb(216, 161, 10);
+}
+.blue {
+    border: 3px solid rgb(24, 22, 141);
+}
+.green {
+    border: 3px solid rgb(0, 248, 41);
+}
+.price{
+    font-size: 300%;
+    font-weight: bold;
+}
+.priceBig{
+    font-size: 500%;
+    font-weight: bold;
+}
+.month {
+    font-size: 150%;
+    color: grey;
+}
+.buy {
+    width: 50%;
+    height: 10%;
+    position: absolute;
+    left: 25%;
+    top: 85%;
+    text-align: center;
+    line-height: 60px;
+    color:white;
+}
+.bigbuy {
+    width: 50%;
+    height: 10%;
+    position: absolute;
+    left: 25%;
+    top: 85%;
+    text-align: center;
+    line-height: 60px;
+    color:white;
+
+}
+#red {
+    background-color: rgb(187, 11, 34);
+}
+#yellow {
+    background-color: rgb(216, 161, 10);
+    width: 30%;
+    left: 35%;
+}
+#blue {
+    background-color: rgb(24, 22, 141);
+}
+#Pricing{
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+.plan:hover{
+    height: 560px;
+    width: 170%;
+    font-size: 120%;
+}
