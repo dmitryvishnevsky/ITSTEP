@@ -3,40 +3,45 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    max-width: 100%;
 }
 
-.header {
+header {
     background-color: #579ee0;
     padding: 10px 30px;
     position: sticky;
     top: 0px;
     z-index: 2;
     height: 75px;
+  
 }
 
-.header a {
+header a {
     float: left;
     color: white;
     text-align: center;
     padding: 15px;
-    text-decoration: none;
+    text-decoration: none; 
     border-radius: 15px;
     font-size: 22px;
     line-height: 24px;
 }
 
-.header a:hover {
+header a:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(211, 211, 211);
+    text-decoration: none;
 }
 
-.header a.active {
+header a.active {
     background-color: rgb(211, 211, 211);
     color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 .header-right {
     float: right;
+    
 }
 
 #burger-menu {
@@ -48,7 +53,6 @@ label {
     width: 40px;
     height: 40px;
     background-color: #579ee0;
-    ;
     border-radius: 50%;
     border: 3px solid #386a99;
     ;
@@ -113,7 +117,7 @@ span::after {
     left: 75%;
 }
 
-.header {
+header {
     align-items: center
 }
 
@@ -139,7 +143,7 @@ span::after {
     }
 }
 
-.header>.logo:hover {
+header>.logo:hover {
     background-color: rgba(0, 0, 0, 0);
     color: white;
 }
@@ -168,6 +172,7 @@ a.link-burger {
     position: relative;
     z-index: 2;
     border-radius: 0;
+    text-decoration: none;
 }
 
 .plan {
@@ -246,6 +251,44 @@ a.link-burger {
     text-align: center;
 }
 
-#Pricing .plan {
+#PricingRow .plan {
     margin: 30px;
+}
+.footerOne {
+    background-color: #579ee0;
+    width: 100%;
+    max-width: 100%;
+}
+iframe{
+    width: 80%;
+    margin: 15px 15px 0px 15px;
+    position: relative;
+    left: 6%;
+}
+#aboutVPN, #Features, #Pricing{
+    padding: 70px;
+}
+
+.footerTwo {
+    background-color: #3e75a8;
+    width: 100%;
+    height: 70px;
+    max-width: 100%;
+}
+
+.warranty{
+    padding: 50px;
+    text-align: justify;
+    color: white;
+}
+.copyright{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.award{
+    margin-top: 12%;
+}
+.imgOne{
+    margin-top: px;
 }
