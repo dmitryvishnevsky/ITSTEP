@@ -82,6 +82,7 @@ span::after {
     color: white;
     position: relative;
     z-index: 2;
+    scroll-behavior: smooth;
 }
 #burger-menu:checked ~ label > .burger-list{
     display: block;
@@ -148,9 +149,11 @@ a.link-burger{
     transition: 1s;
 }
 .text {
-    font-size: 120%;
+    font-size: 130%;
     font-weight: bold;
-    margin-top: 20px;
+}
+.text-block{
+    margin-top: 15px;
 }
 .red {
     border: 3px solid rgb(187, 11, 34);
@@ -169,7 +172,7 @@ a.link-burger{
     font-weight: bold;
 }
 .priceBig{
-    font-size: 500%;
+    font-size: 400%;
     font-weight: bold;
 }
 .month {
@@ -185,35 +188,21 @@ a.link-burger{
     text-align: center;
     line-height: 60px;
     color:white;
-}
-.bigbuy {
-    width: 50%;
-    height: 10%;
-    position: absolute;
-    left: 25%;
-    top: 85%;
-    text-align: center;
-    line-height: 60px;
-    color:white;
-
-}
-#red {
-    background-color: rgb(187, 11, 34);
-}
-#yellow {
-    background-color: rgb(216, 161, 10);
-    width: 30%;
-    left: 35%;
+    line-height: 3em;
 }
 #blue {
-    background-color: rgb(24, 22, 141);
-}
-#Pricing{
-    margin-top: 40px;
-    margin-bottom: 90px;
+    background-color: rgb(12, 8, 255);
 }
 .plan:hover{
-    height: 560px;
-    width: 170%;
-    font-size: 120%;
+    font-size: 110%;
+    border: 2px solid blue;
+}
+.plan:hover ~ .buy{
+    border: 4px solid white;
+}
+.choose{
+    text-align: center;
+}
+#Pricing .plan{
+    margin: 30px;
 }
