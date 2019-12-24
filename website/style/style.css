@@ -55,7 +55,6 @@ label {
     background-color: #579ee0;
     border-radius: 50%;
     border: 3px solid #386a99;
-    ;
 }
 
 label span,
@@ -131,12 +130,7 @@ header {
     .header-right {
         display: none;
     }
-
-    #imgOne {
-        display: none;
-    }
 }
-
 @media (min-width: 768px) {
     #burger-label {
         display: none;
@@ -237,50 +231,36 @@ a.link-burger {
 #blue {
     background-color: rgb(12, 8, 255);
 }
-
 .plan:hover {
     font-size: 110%;
     border: 1px solid blue;
 }
-
 .plan:hover~.buy {
     border: 4px solid white;
 }
-
 .choose {
     text-align: center;
 }
-
 #PricingRow .plan {
     margin: 30px;
 }
-
 .footerOne {
     background-color: #579ee0;
     width: 100%;
     max-width: 100%;
 }
-
 iframe {
     width: 80%;
     margin: 15px 15px 0px 15px;
     position: relative;
     left: 6%;
 }
-
-#aboutVPN,
-#Features,
-#Pricing {
-    padding: 70px;
-}
-
 .footerTwo {
     background-color: #3e75a8;
     width: 100%;
     height: 70px;
     max-width: 100%;
 }
-
 .warranty {
     padding: 50px;
     text-align: justify;

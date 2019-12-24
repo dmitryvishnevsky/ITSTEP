@@ -8,42 +8,51 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico.png" type="image/x-icon">
 </head>
 
 <body>
     <header>
-        <a href="index.html" class="logo link-modify">
-            <img src="img/anonymously.svg" alt="logo" class="logo-pic">
+        <div class="">
+            <a href="index.html" class="logo link-modify" id="picLink">
+            <img src="img/anonymously.png" alt="logo" class="logo-pic">
             <span class="logo-span">SNEAK</span>
-        </a>
+        </a></div>
+        
         <input type="checkbox" name="button" id="burger-menu">
         <label for="burger-menu" id="burger-label">
             <span></span>
             <ul class="burger-list">
-                <li><a href="#aboutVPN" class="link-burger">About VPN</a></li>
-                <li> <a href="#Features" class="link-burger">Features</a></li>
-                <li> <a href="#Pricing" class="link-burger">Pricing</a></li>
+                <li><a href="#aboutVPN" class="link-burger bckgr">About VPN</a></li>
+                <li> <a href="#Features" class="link-burger bckgr">Features</a></li>
+                <li> <a href="#Pricing" class="link-burger bckgr">Pricing</a></li> 
             </ul>
         </label>
         <div class="header-right">
-            <a href="#aboutVPN" class="link-modify">About VPN</a>
-            <a href="#Features" class="link-modify">Features</a>
-            <a href="#Pricing" class="link-modify"> Pricing</a>
+            <a href="#aboutVPN" class="link-modify bckgr">About VPN</a>
+            <a href="#Features" class="link-modify bckgr">Features</a>
+            <a href="#Pricing" class="link-modify bckgr"> Pricing</a>
         </div>
     </header>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
-                <img src="img/vpn.png" height="490px" width="100%" alt="vpn" id="aboutVPN" class="imgOne">
-            </div>
-            <div class="col-lg-6" id="aboutVPN">
+            <section class="col-lg-12" id="aboutVPN">
                 <h2>What is VPN?</h2>
                 <p>A virtual private network (VPN) gives you online privacy and anonymity by creating a private network
                     from a public internet connection. VPNs mask your internet protocol (IP) address so your online
                     actions are virtually untraceable. Most important, VPN services establish secure and encrypted
                     connections to provide greater privacy than even a secured Wi-Fi hotspot.</p>
+            </section>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-xs-12">
+                <img src="img/vpn.png" width="100%" alt="vpn" class="imgOne">
+            </div>
+        </div>
+        <div class="row">
+            <section class="col-lg-12">
                 <h3>Why do you need a VPN service?</h3>
                 <p>Surfing the web or transacting on an unsecured Wi-Fi network means you could be exposing your private
                     information and browsing habits. That’s why a virtual private network, better known as a VPN, should
@@ -52,10 +61,10 @@
                     checking your bank account while waiting at the doctor’s office. Unless you were logged into a
                     private Wi-Fi network that requires a password, any data transmitted during your online session
                     could be vulnerable to eavesdropping by strangers using the same network.</p>
-            </div>
+            </section>
         </div>
         <div class="row">
-            <div class="col-lg-12">
+            <section class="col-lg-12">
                 <h3>How a VPN protects your IP address and privacy</h3>
                 <p>VPNs essentially create a data tunnel between your local network and an exit node in another
                     location, which could be thousands of miles away, making it seem as if you’re in another place. This
@@ -97,10 +106,10 @@
                     a government agency asks your internet service provider to supply records of your internet activity.
                     Assuming your VPN provider doesn’t log your browsing history (some VPN providers do), your VPN can
                     help protect your internet freedom.</p>
-            </div>
+            </section>
         </div>
         <div class="row">
-            <div class="col-lg-6" id="Features">
+            <section class="col-lg-6" id="Features">
                 <h2>All you need for a better online experience</h2>
                 <h5>Stay secure online – no matter what</h5>
                 <p>Cybersecurity may seem very complex, but Sneak makes it as easy as it gets. Cutting-edge technologies
@@ -109,16 +118,16 @@
                 <p>“Sneak is a robust virtual private network with an excellent collection of features, wrapped in a
                     slick client that secures your online activities. Earning a rare 5-star rating, its our top pick for
                     VPNs.”</p>
-            </div>
+            </section>
             <div class="col-lg-6">
                 <img src="img/security.jpg" width="100%" alt="security" id="Features">
             </div>
         </div>
         <div class="row">
             <div class="col-lg-6">
-                <img src="img/vpn.jpg" width="100%" alt="vpn">
+                <img src="img/vpn-image.png" width="100%" alt="vpn">
             </div>
-            <div class="col-lg-6">
+            <section class="col-lg-6">
                 <h5>Know that your data is always private</h5>
                 <p>Real internet privacy is just a click away. Sneak protects your IP address and makes sure that no one
                     else can see which websites you visit or what files you download.</p>
@@ -131,7 +140,7 @@
                 <h5>Get assistance 24/7</h5>
                 <p>Our award-winning customer service agents are ready to help you all day, every day. Get in touch with
                     them directly, or find the answers you’re looking for in our Help Center.</p>
-            </div>
+            </section>
         </div>
         <div class="row choose">
             <div class="col-lg-12">
@@ -192,7 +201,7 @@
     </div>
     </div>
     <div class="row footerOne">
-        <div class="col-lg-4 warranty">
+        <section class="col-lg-4 warranty">
             <h3>Security Warranty</h3>
             <p>We, Sneak VPN Service, confirm that we take full control of our infrastructure. We have never willingly disclosed
                 any user data or provided any access to user traffic to any third party. We do not collect user traffic
@@ -205,7 +214,7 @@
             <p> We have NOT received any warrants from any government organization.</p>
             <p> We are 100% committed to our zero-logs policy – we never log the activities of our users to ensure their
                 ultimate privacy and security.</p>
-        </div>
+        </section>
         <div class="col-lg-4">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1322.5903506483576!2d35.02895224723733!3d48.47224744033878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2fa02f38885%3A0xe3172e9279d17282!2sKomp%CA%B9yuternaya%20Akademyya%20Shah!5e0!3m2!1sru!2sua!4v1576327709633!5m2!1sru!2sua"
