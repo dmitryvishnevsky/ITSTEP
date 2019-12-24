@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #a0b8d6;
+    background-color: #74b9b8;
     padding: 10px 30px;
     position: sticky;
     top: 0px;
@@ -56,7 +56,7 @@ label {
     float: right;
     width: 40px;
     height: 40px;
-    background-color:  #a0b8d6;
+    background-color:  #74b9b8;
     border-radius: 50%;
     border: 1px solid  #ddeaf0;
 }
@@ -103,7 +103,7 @@ span::after {
     width: 125px;
     height: 40px;
     font-size: 22px;
-    background-color:  #ddeaf0;
+    background-color:  #74b9b8;
     color: white;
     position: relative;
     z-index: 2;
@@ -168,12 +168,11 @@ header a.link-modify:hover{
     text-decoration: none;
 }
 a.link-burger {
-    margin-top: -2px;
     text-align: center;
     width: 125px;
     height: 40px;
     font-size: 22px;
-    background-color:   #a0b8d6;
+    background-color:   #74b9b8;
     color: white;
     position: relative;
     z-index: 2;
@@ -270,7 +269,7 @@ iframe {
 }
 
 .footerTwo {
-    background-color:  #a0b8d6;
+    background-color:  #74b9b8;
     height: 70px;
     min-width: 100%;
     overflow: hidden;
