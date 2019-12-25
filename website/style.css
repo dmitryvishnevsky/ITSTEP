@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #74b9b8;
+    background-color: #7482af;
     padding: 10px 30px;
     position: sticky;
     top: 0px;
@@ -31,7 +31,7 @@ header a {
 
 .bckgr:hover {
     color: rgb(0, 0, 0);
-    background-color: #ddeaf0;
+    background-color: #a0b8d6;
     text-decoration: none;
 
 }
@@ -56,9 +56,9 @@ label {
     float: right;
     width: 40px;
     height: 40px;
-    background-color:  #74b9b8;
+    background-color: #7482af;
     border-radius: 50%;
-    border: 1px solid  #ddeaf0;
+    border: 1px solid #ddeaf0;
 }
 
 label span,
@@ -103,7 +103,7 @@ span::after {
     width: 125px;
     height: 40px;
     font-size: 22px;
-    background-color:  #74b9b8;
+    background-color: #74b9b8;
     color: white;
     position: relative;
     z-index: 2;
@@ -155,7 +155,8 @@ header {
     font-family: 'Roboto', sans-serif;
     list-style: none;
 }
-header a.link-modify:hover{
+
+header a.link-modify:hover {
     text-decoration: none !important;
     cursor: default;
 }
@@ -164,15 +165,17 @@ header a.link-modify:hover{
     margin-top: 10px;
     width: 100%;
 }
-.link-modify:hover{
+
+.link-modify:hover {
     text-decoration: none;
 }
+
 a.link-burger {
     text-align: center;
     width: 125px;
     height: 40px;
     font-size: 22px;
-    background-color:   #74b9b8;
+    background-color: #7482af;
     color: white;
     position: relative;
     z-index: 2;
@@ -181,14 +184,15 @@ a.link-burger {
 }
 
 .plan {
-    height: 450px;
+    height: 420px;
     border: 1px solid black;
     text-align: center;
-    transition: 1s;
+    transition: 0.5s;
+    margin-top: 15px;
 }
 
 .text {
-    font-size: 130%;
+
     font-weight: bold;
 }
 
@@ -197,20 +201,20 @@ a.link-burger {
 }
 
 .blue {
-    border: 3px solid  #74b9b8;
-}
-.price {
-    font-size: 300%;
-    font-weight: bold;
+    border: 3px solid #7382af;
 }
 
-.priceBig {
-    font-size: 400%;
+.price {
+    font-size: 300%;
+}
+
+.priceBold {
+    font-size: 310%;
     font-weight: bold;
 }
 
 .month {
-    font-size: 150%;
+    font-size: 140%;
     color: grey;
 }
 
@@ -227,37 +231,28 @@ a.link-burger {
 }
 
 #blue {
-    background-color:  #74b9b8;
+    background-color: #7382af;
 }
 
 .plan:hover {
     font-size: 105%;
-    border: 2px solid #74b9b8;
-    background-color: #ddeaf0;
-}
-
-.plan:hover .buy{
-    background-color: #74b9b8;
+    border: 2px solid #566183;
 }
 
 .choose {
     text-align: center;
 }
 
-#PricingRow .plan {
-    margin: 30px;
-}
-
 .footerOne {
-    background-color: #ddeaf0;;
+    background-color: #a0b8d6;
     width: 100%;
     margin: 0;
-    
+
 }
 
 iframe {
-    width: 80%;
-    margin: 15px 15px 0px 15px;
+    width: 100%;
+    height: 400px;
     position: relative;
     left: 6%;
 }
@@ -269,7 +264,7 @@ iframe {
 }
 
 .footerTwo {
-    background-color:  #74b9b8;
+    background-color: #7482af;
     height: 70px;
     min-width: 100%;
     overflow: hidden;
@@ -291,6 +286,22 @@ iframe {
 .award {
     margin-top: 12%;
 }
-#picLink:hover, #picLink:link{
-    color:black;
+
+#picLink:hover,
+#picLink:link {
+    color: black;
+}
+
+.plancontainer {
+    padding: 20px;
+    margin: 10 20px;
+}
+
+#PricingRow {
+    margin-bottom: 20px;
+}
+
+.box{
+    padding: 20px;
+    margin: 0 15px;
 }
